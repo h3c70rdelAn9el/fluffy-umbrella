@@ -3,6 +3,7 @@
     <Carousel2 />
     <AboutSection />
     <TeamSection />
+    <ContactForm />
   </div>
 </template>
 
