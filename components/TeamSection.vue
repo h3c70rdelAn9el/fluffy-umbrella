@@ -1,6 +1,6 @@
 <template>
   <div id="team-section">
-    <h1 class="team-title">
+    <h1 class="team-title p-1">
       Our Incredible Team!
     </h1>
     <b-container class="bv-row">
@@ -79,11 +79,12 @@ export default {
     border-radius: 20px;
     object-fit: cover;
     object-position: center;
+    transition: .5s;
 
   }
 
   .card img:hover {
     border-radius: 0px;
-    transform: scale(1.1, 1.2)
+    transform: scale(1.1, 1.2);
   }
 </style>

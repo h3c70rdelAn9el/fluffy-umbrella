@@ -1,17 +1,17 @@
 <template>
   <div class="">
-    <!-- <Hero /> -->
-    <Carousel />
+    <Carousel2 />
+    <AboutSection />
     <TeamSection />
   </div>
 </template>
 
 <script>
-import Carousel from '@/components/Carousel'
+import AboutSection from '@/components/PageSections/AboutSection'
 
 export default {
   components: {
-    Carousel
+    AboutSection
   }
 }
 </script>
