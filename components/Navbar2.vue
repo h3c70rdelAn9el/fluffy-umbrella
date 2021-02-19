@@ -5,7 +5,7 @@
     </b-navbar-brand>
 
     <b-navbar-toggle target="navbar-toggle-collapse">
-      <template #default="{ expanded }">
+      <template v-slot:default="{ expanded }">
         <b-icon v-if="expanded" icon="chevron-bar-up" class="nav-icon" />
         <b-icon v-else icon="chevron-bar-down" class="nav-icon" />
       </template>
@@ -13,7 +13,7 @@
 
     <b-collapse id="navbar-toggle-collapse" is-nav>
       <b-navbar-nav v-for="link in links" :key="link.id" class="nav-links ml-auto">
-        <b-nav-item :href="link.route" class="">
+        <b-nav-item v-scroll-to="link.route" href="#" class="">
           {{ link.name }}
         </b-nav-item>
       </b-navbar-nav>
@@ -32,11 +32,15 @@ export default {
         },
         {
           name: 'About',
-          route: '#'
+          route: '#about-section'
+        },
+        {
+          name: 'Team',
+          route: '#team-section'
         },
         {
           name: 'Contact',
-          route: '#'
+          route: '#contact'
         }
       ]
     }

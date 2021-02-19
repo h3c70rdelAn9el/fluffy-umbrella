@@ -14,7 +14,7 @@
               :img-src="member.img"
             >
               <b-card-text>
-                {{ member.text }}
+                <p>{{ member.text }}</p>
               </b-card-text>
             </b-card>
           </a>
@@ -64,8 +64,13 @@ export default {
     border-radius: 10px;
   }
 
+  .bv-row p {
+    font-size: 14px;
+    color: black;
+  }
+
   #team-section {
-    background-color: black;;
+    background-color: black;
   }
 
   .card {

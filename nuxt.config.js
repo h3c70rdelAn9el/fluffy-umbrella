@@ -55,7 +55,9 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    // https://www.npmjs.com/package/vue-scrollto
+    'vue-scrollto/nuxt'
   ],
 
   bootstrapVue: {
