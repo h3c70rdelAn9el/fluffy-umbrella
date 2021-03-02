@@ -1,6 +1,6 @@
 <template>
   <div id="contact">
-    <div class="p-2 pb-3 text-center contact-title">
+    <div class=" text-center contact-title">
       <h1>
         Contact Us
       </h1>
@@ -91,7 +91,8 @@ export default {
 .contact-title {
   background-color: black;
   color: rgb(158, 26, 158);
-  margin: -10px;
+  padding-top: 4px;
+  padding-bottom: 6px;
 }
 
 .button {
