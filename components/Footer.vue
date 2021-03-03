@@ -1,6 +1,6 @@
 <template>
-  <div id="footer" class="footer">
-    <b-row>
+  <div id="footer" class="footer d-flex">
+    <b-row class="align-items-center">
       <b-col>
         <p>
           pictures from <a href="https://placebeard.it/">placebeard.it</a> &
@@ -8,9 +8,9 @@
         </p>
       </b-col>
       <b-col class="footer-right">
-        <p>simple landing page using bootstrap-vue by h3c70r</p>
-        <p />
-        <p />
+        <p class="text-right">
+          simple landing page using bootstrap-vue by h3c70r
+        </p>
       </b-col>
     </b-row>
   </div>
